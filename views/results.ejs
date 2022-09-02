@@ -1,0 +1,11 @@
+<h2>Results for <%= input %></h2>
+
+<% people.forEach(person => { %>
+    <div>
+        <h3><%= person.name %></h3>
+
+        <p>eye color: <%= person.eye_color %></p>
+
+        <a href="<%= person.homeworld %>">Homeworld</a>
+    </div>
+<% }) %> 
